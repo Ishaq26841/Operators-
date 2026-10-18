@@ -1,0 +1,38 @@
+v = 4
+w = 2
+x = 0
+y = 1
+z = 5
+z = (v + w) * z / y;
+print("The Value Of (v+w * x / y) is ", z)
+
+name = "John"
+age = 0
+
+if name == "John" or age == 0 and age >= 2:
+    print("Hello! Welcome.")
+else:
+    print("Good Bye!")
+
+print("Enter A number of (Numerator): ")
+numn = int(input("Numerator: "))
+print("Enter A number OF (Denominator:)")
+numd = int(input("Denominator:"))
+
+if numn%numd == 0:
+    print("\n" + str(numn)+ "is divisible by ", str(numd))
+else:
+    print("\n" + str(numn)+ "is not divisible by", str(numd))
+
+mean1 = 38
+wrong_number = 36
+correct_number = 56
+total_number = 40
+
+sum = mean1*total_number
+print("The sum of 40 number is", sum)
+
+num2=sum - ((wrong_number)-(correct_number))
+print("sum - ((wrong number)-(correct_number)): ",num2 )
+mean2 = num2/total_number
+print(mean2)
